@@ -8,7 +8,7 @@ public class IsSorted {
      */
     public boolean checkSort(int[] arr){
         int smaller= arr[0];
-        bool sorted = true;
+        boolean sorted = true;
         for (int i = 1; i < arr.length; i++){
             if (smaller > arr[i])
                 sorted = false;
